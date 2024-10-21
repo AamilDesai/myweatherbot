@@ -1,0 +1,13 @@
+prefix=/Users/aamil/Desktop/myweatherbot/myweatherbot
+exec_prefix=/Users/aamil/Desktop/myweatherbot/myweatherbot
+libdir=/Users/aamil/Desktop/myweatherbot/myweatherbot/lib
+sharedlibdir=/Users/aamil/Desktop/myweatherbot/myweatherbot/lib
+includedir=/Users/aamil/Desktop/myweatherbot/myweatherbot/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
